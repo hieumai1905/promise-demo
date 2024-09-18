@@ -28,7 +28,8 @@ Ví dụ này mô phỏng quá trình mua nhiều xe hơi với một số tiề
 2. Chạy lệnh sau để biên dịch và thực thi code:
 
 ```bash
-npx ts-node car-buying-example.ts
+tsc -p ./
+node ./dist/main.js
 ```
 
 ## Giải thích code
